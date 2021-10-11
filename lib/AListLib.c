@@ -76,4 +76,5 @@ Position locate(ElementType X, List L) {
 		else
 			P = next(P, L);
 	}
+	return P;
 }
