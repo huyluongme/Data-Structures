@@ -9,8 +9,8 @@
 ###### Đề:
 >Cho trước các phép toán sau:
 >
-- Khởi tạo danh sách rỗng makenullList()
-- Thêm phần tử X vào danh sách ở vị trí p insertList()
+>- Khởi tạo danh sách rỗng makenullList()
+>- Thêm phần tử X vào danh sách ở vị trí p insertList()
 >
 >Hãy viết hàm chép toàn bộ các số chẵn trong danh sách L1 sang danh sách kết quả
 
@@ -28,9 +28,9 @@
 ###### Đề:
 >Cho trước các phép toán sau:
 >
-- Khởi tạo danh sách rỗng void makenullList(List *pL)
-- Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
-- Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
+>- Khởi tạo danh sách rỗng void makenullList(List *pL)
+>- Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
+>- Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
 >
 >Hãy viết hàm tìm tập hơp hiệu của 2 tập hợp biểu diễn bởi 2 danh sách L1, L2
 
@@ -40,9 +40,10 @@
 ## erase
 ###### Đề:
 >Cho trước các phép toán sau:
-- Tìm vị trí xuất hiện đầu tiên của phần tử x trong danh sách locate()
-- Xóa phần tử ở vị trí p trong danh sách deleteList()
-
+>
+>- Tìm vị trí xuất hiện đầu tiên của phần tử x trong danh sách locate()
+>- Xóa phần tử ở vị trí p trong danh sách deleteList()
+>
 >Hãy viết hàm xóa phần tử x xuất hiện đầu tiên trong danh sách đặc các số nguyên
 
 ###### Code:
@@ -72,10 +73,11 @@
 ## intersection
 ###### Đề:
 >Cho trước các phép toán sau:
-- Khởi tạo danh sách rỗng void makenullList(List *pL)
-- Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
-- Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
-
+>
+>- Khởi tạo danh sách rỗng void makenullList(List *pL)
+>- Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
+>- Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
+>
 >Hãy viết hàm tìm tập hơp giao của 2 tập hợp biểu diễn bởi 2 danh sách L1, L2
 
 ###### Code:
@@ -105,8 +107,9 @@
 ## normalize
 ###### Đề:
 >Cho trước các phép toán sau:
-- Xóa phần tử ở vị trí p trong danh sách void deleteList(Position p, List *pL)
-
+>
+>- Xóa phần tử ở vị trí p trong danh sách void deleteList(Position p, List *pL)
+>
 >Hãy viết hàm chuẩn hóa một danh sách, tức các phần tử trong danh sách nếu trùng nhau thì chỉ giữ lại 1 phần tử, các phần tử khác bị xóa bỏ
 
 ###### Code:
@@ -129,9 +132,10 @@
 ## readList
 ###### Đề:
 >Cho trước các phép toán sau:
-- Khởi tạo danh sách rỗng makenullList()
-- Chèn phần tử x vào vị trí p trong danh sách insertList()
-
+>
+>- Khởi tạo danh sách rỗng makenullList()
+>- Chèn phần tử x vào vị trí p trong danh sách insertList()
+>
 Hãy viết hàm nhập danh sách số nguyên từ bàn phím.
 
 ###### Code:
@@ -140,10 +144,11 @@ Hãy viết hàm nhập danh sách số nguyên từ bàn phím.
 ## readSet
 ###### Đề:
 >Cho trước các phép toán sau:
-- Khởi tạo danh sách rỗng void makenullList(List *pL)
-- Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
-- Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
-
+>
+>- Khởi tạo danh sách rỗng void makenullList(List *pL)
+>- Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
+>- Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
+>
 >Hãy viết hàm nhập một tập hợp từ bàn phím
 
 ###### Code:
@@ -152,9 +157,10 @@ Hãy viết hàm nhập danh sách số nguyên từ bàn phím.
 ## removeAll
 ###### Đề:
 >Cho trước các phép toán sau:
-- Tìm vị trí xuất hiện đầu tiên của phần tử x trong danh sách locate()
-- Xóa phần tử ở vị trí p trong danh sách deleteList()
-
+>
+>- Tìm vị trí xuất hiện đầu tiên của phần tử x trong danh sách locate()
+>- Xóa phần tử ở vị trí p trong danh sách deleteList()
+>
 >Hãy viết hàm xóa tất cả phần tử có giá trị x trong danh sách đặc các số nguyên.
 
 ###### Code:
@@ -170,10 +176,11 @@ Hãy viết hàm nhập danh sách số nguyên từ bàn phím.
 ## unionSet
 ###### Đề:
 >Cho trước các phép toán sau:
-- Khởi tạo danh sách rỗng void makenullList(List *pL)
-- Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
-- Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
-
+>
+>- Khởi tạo danh sách rỗng void makenullList(List *pL)
+>- Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
+>- Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
+>
 >Hãy viết hàm tìm tập hơp hợp của 2 tập hợp biểu diễn bởi 2 danh sách L1, L2.
 
 
