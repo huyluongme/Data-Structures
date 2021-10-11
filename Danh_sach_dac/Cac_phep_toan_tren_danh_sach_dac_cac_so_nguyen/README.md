@@ -9,8 +9,8 @@
 ###### Đề:
 >Cho trước các phép toán sau:
 >
->- Khởi tạo danh sách rỗng makenullList()
->- Thêm phần tử X vào danh sách ở vị trí p insertList()
+- Khởi tạo danh sách rỗng makenullList()
+- Thêm phần tử X vào danh sách ở vị trí p insertList()
 >
 >Hãy viết hàm chép toàn bộ các số chẵn trong danh sách L1 sang danh sách kết quả
 
@@ -27,10 +27,11 @@
 ## difference
 ###### Đề:
 >Cho trước các phép toán sau:
+>
 - Khởi tạo danh sách rỗng void makenullList(List *pL)
 - Kiểm tra phần tử X có trong danh sách hay không int member(ElementType x, List L)
 - Thêm phần tử X vào cuối danh sách void insertSet(ElementType x, List *pL)
-
+>
 >Hãy viết hàm tìm tập hơp hiệu của 2 tập hợp biểu diễn bởi 2 danh sách L1, L2
 
 ###### Code:
