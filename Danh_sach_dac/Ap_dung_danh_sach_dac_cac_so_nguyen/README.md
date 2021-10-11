@@ -1,17 +1,17 @@
 ## countList
 ###### Đề:
->Để cài đặt cấu trúc danh sách đặc với kiểu phần tử là số nguyên, cho trước các khai báo như sau:
-```c
-#define MaxLenght 50
+> Để cài đặt cấu trúc danh sách đặc với kiểu phần tử là số nguyên, cho trước các khai báo như sau:
+>```c
+>#define MaxLenght 50
 >
-typedef int ElementType;
-typedef int Position;
+>typedef int ElementType;
+>typedef int Position;
 >
-typedef struct {
-	ElementType Elements[MaxLenght];
-	Position Last;
-}List;
-```
+>typedef struct {
+>	ElementType Elements[MaxLenght];
+>	Position Last;
+>}List;
+>```
 >Các phép toán cơ bản trên danh sách cũng đã được cài đặt
 ```c
 void makenullList(List *L)
