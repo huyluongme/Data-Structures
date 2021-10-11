@@ -5,25 +5,26 @@
 ###### Code:
 >[Khaibaodanhsach.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/Khaibaodanhsach.c)
 
-##copyEvenNumbers
+## copyEvenNumbers
 ###### Đề:
 >Cho trước các phép toán sau:
-- Khởi tạo danh sách rỗng makenullList()
-- Thêm phần tử X vào danh sách ở vị trí p insertList()
-
+>
+>- Khởi tạo danh sách rỗng makenullList()
+>- Thêm phần tử X vào danh sách ở vị trí p insertList()
+>
 >Hãy viết hàm chép toàn bộ các số chẵn trong danh sách L1 sang danh sách kết quả
 
 ###### Code:
 >[copyEvenNumbers.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/copyEvenNumbers.c)
 
-##deleteList
+## deleteList
 ###### Đề:
 >Hãy viết hàm xóa phần tử ở vị trí p trong danh sách
 
 ###### Code:
 >[deleteList.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/deleteList.c)
 
-##difference
+## difference
 ###### Đề:
 >Cho trước các phép toán sau:
 - Khởi tạo danh sách rỗng void makenullList(List *pL)
@@ -35,7 +36,7 @@
 ###### Code:
 >[difference.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/difference.c)
 
-##erase
+## erase
 ###### Đề:
 >Cho trước các phép toán sau:
 - Tìm vị trí xuất hiện đầu tiên của phần tử x trong danh sách locate()
@@ -46,28 +47,28 @@
 ###### Code:
 >[erase.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/erase.c)
 
-##getAvg
+## getAvg
 ###### Đề:
 >Hãy viết hàm tính trung bình cộng giá trị các phần tử trong danh sách
 
 ###### Code:
 >[getAvg.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/getAvg.c)
 
-##insertList
+## insertList
 ###### Đề:
 >Hãy viết hàm thêm một phần tử x vào vị trí p trong danh sách số nguyên
 
 ###### Code:
 >[insertList.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/insertList.c)
 
-##insertSet
+## insertSet
 ###### Đề:
 >Hãy viết hàm chèn một phần tử X vào cuối danh sách chỉ bởi con trỏ  pL biểu diễn 1 tập hợp
 
 ###### Code:
 >[insertSet.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/insertSet.c)
 
-##intersection
+## intersection
 ###### Đề:
 >Cho trước các phép toán sau:
 - Khởi tạo danh sách rỗng void makenullList(List *pL)
@@ -79,28 +80,28 @@
 ###### Code:
 >[intersection.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/intersection.c)
 
-##locate
+## locate
 ###### Đề:
 >Hãy viết hàm tìm vị trí xuất hiện đầu tiên của phần tử x trong danh sách các số nguyên
 
 ###### Code:
 >[locate.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/locate.c)
 
-##makenullList
+## makenullList
 ###### Đề:
 >Viết hàm khởi tạo một danh sách rỗng
 
 ###### Code:
 >[makenullList.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/makenullList.c)
 
-##member
+## member
 ###### Đề:
 >Hãy viết hàm cho biết phần tử x có tồn tại trong danh sách các số nguyên hay không
 
 ###### Code:
 >[member.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/member.c)
 
-##normalize
+## normalize
 ###### Đề:
 >Cho trước các phép toán sau:
 - Xóa phần tử ở vị trí p trong danh sách void deleteList(Position p, List *pL)
@@ -110,21 +111,21 @@
 ###### Code:
 >[normalize.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/normalize.c)
 
-##printList
+## printList
 ###### Đề:
 >Hãy viết hàm liệt kê tất cả các phần tử của danh sách các số nguyên
 
 ###### Code:
 >[printList.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/printList.c)
 
-##printOddNumbers
+## printOddNumbers
 ###### Đề:
 >Hãy viết hàm liệt kê tất cả các phần tử của danh sách các số nguyên
 
 ###### Code:
 >[printOddNumbers.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/printOddNumbers.c)
 
-##readList
+## readList
 ###### Đề:
 >Cho trước các phép toán sau:
 - Khởi tạo danh sách rỗng makenullList()
@@ -135,7 +136,7 @@ Hãy viết hàm nhập danh sách số nguyên từ bàn phím.
 ###### Code:
 >[readList.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/readList.c)
 
-##readSet
+## readSet
 ###### Đề:
 >Cho trước các phép toán sau:
 - Khởi tạo danh sách rỗng void makenullList(List *pL)
@@ -147,7 +148,7 @@ Hãy viết hàm nhập danh sách số nguyên từ bàn phím.
 ###### Code:
 >[readSet.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/readSet.c)
 
-##removeAll
+## removeAll
 ###### Đề:
 >Cho trước các phép toán sau:
 - Tìm vị trí xuất hiện đầu tiên của phần tử x trong danh sách locate()
@@ -158,14 +159,14 @@ Hãy viết hàm nhập danh sách số nguyên từ bàn phím.
 ###### Code:
 >[removeAll.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/removeAll.c)
 
-##sort
+## sort
 ###### Đề:
 >Hãy viết hàm sắp xếp danh sách 
 
 ###### Code:
 >[sort.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Cac_phep_toan_tren_danh_sach_dac_cac_so_nguyen/sort.c)
 
-##unionSet
+## unionSet
 ###### Đề:
 >Cho trước các phép toán sau:
 - Khởi tạo danh sách rỗng void makenullList(List *pL)
