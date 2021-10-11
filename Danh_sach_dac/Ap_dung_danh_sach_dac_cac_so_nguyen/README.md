@@ -1,5 +1,5 @@
 ## countList
-###### Đề:
+#### Đề:
 > Để cài đặt cấu trúc danh sách đặc với kiểu phần tử là số nguyên, cho trước các khai báo như sau:
 >```c
 >#define MaxLenght 50
@@ -31,5 +31,5 @@
 >int countList(ElementType X, List L)
 >```
 
-###### Code
+#### Code
 > [countList](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Ap_dung_danh_sach_dac_cac_so_nguyen/countList.c)
