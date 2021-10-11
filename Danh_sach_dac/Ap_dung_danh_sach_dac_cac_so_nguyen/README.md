@@ -32,4 +32,4 @@
 >```
 
 #### Code
-> [countList](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Ap_dung_danh_sach_dac_cac_so_nguyen/countList.c)
+> [countList.c](https://github.com/huyluongme/Data-Structures/blob/main/Danh_sach_dac/Ap_dung_danh_sach_dac_cac_so_nguyen/countList.c)
