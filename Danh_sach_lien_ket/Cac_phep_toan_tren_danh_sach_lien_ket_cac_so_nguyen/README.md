@@ -70,7 +70,7 @@
 >```
 >
 >Các phép toán cơ bản cũng đã được cài đặt
->
+>```
 >void makenullList(List *pL)
 >Position first(List L)
 >Position endList (List L)
@@ -78,7 +78,7 @@
 >ElementType retrieve(Position P, List L)
 >void insertList(ElementType X, Position P, List *pL)
 >void deleteList(Position P, List *pL)
->
+>```
 >Hãy viết hàm
 >
 >```c
