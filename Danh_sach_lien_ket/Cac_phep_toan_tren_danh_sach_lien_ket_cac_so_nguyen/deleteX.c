@@ -23,5 +23,6 @@ void deleteX(ElementType x, List* pL) {
 	while (P != E) {
 		deleteList(P, pL);
 		P = locate(x, *pL);
+		E = endList(*pL)
 	}
 }
