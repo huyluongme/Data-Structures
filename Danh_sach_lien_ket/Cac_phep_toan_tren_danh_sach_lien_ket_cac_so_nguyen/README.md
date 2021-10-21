@@ -185,8 +185,10 @@
 >void deleteX(ElementType x, List* pL) {
 >	Position P = first(*pL), E = endList(*pL);
 >	while (P != E) {
->		if (retrieve(P, *pL) == x)
+>		if (retrieve(P, *pL) == x) {
 >			deleteList(P, pL);
+>			E = endList(*pL);
+>		}
 >		else
 >			P = next(P, *pL);
 >	}
