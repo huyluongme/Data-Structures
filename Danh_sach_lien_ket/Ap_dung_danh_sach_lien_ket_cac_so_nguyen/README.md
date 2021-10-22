@@ -162,7 +162,7 @@
 >
 >**Gợi ý**
 >
->- #include "PLIstLib.c"
+>- #include "PListLib.c"
 >- Định nghĩa các hàm nhập tập hợp và hiển thị danh sách
 >- Định nghĩa hàm tìm tập hợp hiệu của 2 tập hợp
 >- Gọi thực thi các hàm trên trong hàm main()
@@ -329,7 +329,7 @@
 >
 >**Gợi ý**
 >
->- #include "PLIstLib.c"
+>- #include "PListLib.c"
 >- Định nghĩa các hàm nhập tập hợp và hiển thị danh sách
 >- Định nghĩa hàm tìm tập hợp hợp của 2 tập hợp
 >- Gọi thực thi các hàm trên trong hàm main()
