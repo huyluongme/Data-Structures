@@ -122,20 +122,6 @@
 >```
 
 ##
-# getHeight
->Tính chiều cao cây T
->```c
->int getHeight(Tree T) {
->	if (T == NULL) return -1;
->	else {
->		int left_height = getHeight(T->Left);
->		int right_height = getHeight(T->Right);
->		return 1 + (left_height > right_height ? left_height : right_height);
->	}
->}
->```
-
-##
 # hNode
 >Tính chiều cao của nút có khóa x trong cây T
 >```c
