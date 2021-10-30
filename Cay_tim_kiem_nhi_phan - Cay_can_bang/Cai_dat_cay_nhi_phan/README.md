@@ -27,10 +27,7 @@
 > Khởi tạo và trả về một cây rỗng
 >```c
 >Tree initTree() {
->	Tree T;
->	T = (struct Node*)malloc(sizeof(struct Node));
->	T = NULL;
->	return T;
+>   return NULL;
 >}
 >```
 
@@ -101,11 +98,12 @@
 > Tính chiều cao của một cây nhị phân T
 >```c
 >int getHeight(Tree T) {
->	if (T == NULL)
->		return -1;
->	int lefth = getHeight(T->Left);
->	int righth = getHeight(T->Right);
->	return (lefth > righth) ? lefth + 1 : righth + 1;
+>	if (T == NULL) return -1;
+>	else {
+>		int left_height = getHeight(T->Left);
+>		int right_height = getHeight(T->Right);
+>		return 1 + (left_height > right_height ? left_height : right_height);
+>	}
 >}
 >```
 
@@ -114,11 +112,8 @@
 > Đếm số nút lá của một cây nhị phân T
 >```c
 >int getLeaves(Tree T) {
->	if (T == NULL)
->		return 0;
->	else if (T->Left == NULL && T->Right == NULL)
->		return 1;
->	else
->		return getLeaves(T->Left) + getLeaves(T->Right);
+>	if (T == NULL) return 0;
+>	else if (T->Left == NULL && T->Right == NULL) return 1;
+>	else return getLeaves(T->Left) + getLeaves(T->Right);
 >}
 >```
